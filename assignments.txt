@@ -1,3 +1,7 @@
 18th june
 1. go through the git cheat sheet commands
 2. try ssh authentication method to clone the git repo to your local system
+25th june
+1. explore jenkins and its options
+2. integrate git hub and jenkins
+3. check how to add a node in jenkins
