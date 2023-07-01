@@ -5,3 +5,6 @@
 1. explore jenkins and its options
 2. integrate git hub and jenkins
 3. check how to add a node in jenkins
+1st july
+1. revision and try to perform all steps which we discussed today
+2. explore more on jenkins
