@@ -14,3 +14,4 @@ terraform
 2. try to create different type of resources
 3. modify the templates and try to deploy
 4. explore other terraform commands
+5. check how to deploy the terraform template using jenkins
