@@ -8,3 +8,9 @@
 1st july
 1. revision and try to perform all steps which we discussed today
 2. explore more on jenkins
+2nd july 
+terraform
+1. explore import command
+2. try to create different type of resources
+3. modify the templates and try to deploy
+4. explore other terraform commands
