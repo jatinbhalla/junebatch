@@ -15,3 +15,9 @@ terraform
 3. modify the templates and try to deploy
 4. explore other terraform commands
 5. check how to deploy the terraform template using jenkins
+16july
+ansible
+1. create ansible play to install software
+2. create ansible play book with notify and handler
+3. check use cases of ansible
+4. check how to execute ansible with pipeline
