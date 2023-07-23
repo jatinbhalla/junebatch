@@ -26,3 +26,5 @@ docker
 2. read about docker volumes
 3. read about docker networking
 4. read about docker compose
+5. complete hands from here https://training.play-with-docker.com/docker-networking-hol/
+https://www.docker.com/blog/how-to-use-the-official-nginx-docker-image/
