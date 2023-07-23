@@ -21,3 +21,8 @@ ansible
 2. create ansible play book with notify and handler
 3. check use cases of ansible
 4. check how to execute ansible with pipeline
+docker
+1. create docker file to run html file
+2. read about docker volumes
+3. read about docker networking
+4. read about docker compose
