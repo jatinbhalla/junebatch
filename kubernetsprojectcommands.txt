@@ -1,0 +1,18 @@
+az group create --name akshandsonlab --location East US
+
+az aks create --resource-group akshandsonlab --name junebatch --enable-addons monitoring --kubernetes-version 1.27.1 --generate-ssh-keys --location "east US"
+
+az acr create --resource-group akshandsonlab --name junebatch --sku Standard --location "East US"
+
+az aks update -n junebatch -g akshandsonlab --attach-acr junebatch
+
+ az sql server create -l "east US" -g akshandsonlab -n junebatch -u sqladmin -p P2ssw0rd1234
+
+az sql db create -g akshandsonlab -s junebatch -n mhcdb --service-objective S0
+
+ docker-compose -f docker-compose.ci.build.yml up
+
+ docker-compose -f docker-compose.yml build
+
+docker login -u jatinbhalla -p 12AkCeqxzkdbKO7wdyjH0jK4/6oTlLQqPS6X9aYuPl+ACRDbZ+Vh junebatch.azurecr.io
+docker-compose -f docker-compose.yml push
