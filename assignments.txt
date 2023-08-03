@@ -28,3 +28,6 @@ docker
 4. read about docker compose
 5. complete hands from here https://training.play-with-docker.com/docker-networking-hol/
 https://www.docker.com/blog/how-to-use-the-official-nginx-docker-image/
+
+Graffana:
+https://grafana.com/tutorials/grafana-fundamentals/
